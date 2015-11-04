@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02.11.2015, 3:06:43
+    Author     : cherepashka-ninja
+*/
+
+#my_diver {
+    margin-left: 35%;
+    background-color: #6AB8E6;
+    font-family: sans-serif;
+    width: 21%;
+}
+
+#header {
+    font-weight: normal;
+    margin-left: 18%;
+    border: 4px solid aliceblue;
+    padding-left: 7%;
+}
+
+#moreBeaty {
+    margin-top: 3%;
+    margin-left: 7%;
+    font-size: 120%;
+}
+
+#my_email {
+    margin-left: 7%;
+}
+
+#subbutton {
+    margin-bottom: 5%;
+    margin-left: 18%;
+}
