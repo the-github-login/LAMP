@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Тру-ля-ля</title>
+        <meta charset="UTF-8">
+        <script src="validator.js"></script>
+    </head>
+    <body>
+        <h2>Регистрация</h2>
+        <form name="regForm" onsubmit="return validateForm()" method="POST">
+            <p>
+                Логин: 
+                <input type="email" name="email" value="name@example.com" id="email">
+            </p>
+            
+            <p>
+                Пароль:
+                <input type="password" name="password" id="password" required="">
+            </p>
+            
+            <p>
+                Пол:
+                <input type="radio" name="radio" checked=""> Мужской
+                <input type="radio" name="radio"> Женский
+            </p>
+            
+            <p>
+                Подписаться на новости:
+                <input type="checkbox" name="checkbox">
+            </p>
+            
+            <p>
+                <input type="submit" name="submit" value="Зарегистрироваться">
+            </p>
+        </form>
+    </body>
+</html>
